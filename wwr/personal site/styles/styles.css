@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Pacifico&family=Roboto+Mono:ital,wght@0,700;1,400&family=Young+Serif&display=swap');
+
+h1 {
+  padding: 50px;
+  background-color: #5e503f;
+  color: white;
+  font-family: pacifico, sans-serif ;
+  font-size: 50px;
+
+   
+}
+
+body {
+  text-align: center;
+  background-color: bisque;
+}
+
+ nav a {
+  color: bisque;
+  font-size: 25px;
+  background-color: chocolate ;
+  text-decoration: none ;
+  font-family: lobster, sans-serif;
+ 
+
+ }
+
+nav a:hover {
+  color: bisque;
+  background-color: cadetblue;
+  text-decoration: none ;
+  font-family: lobster, sans-serif;
+}
+
+.container {
+  display: inline-block;
+  width: 30%; 
+  background-color: #f0f0f0; 
+  padding: 10px;
+  text-align: left;
+  margin: 10px; 
+  color: brown;
+  font-family: young, sans-serif ;
+}
+
+main {
+  color: black;
+  font-family: adlam display, sans-serif;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: sans;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  font-family: neue, sans-serif;
+}
+
+#sweet {
+  display: inline-block;
+  max-width: 25%; 
+  vertical-align: top;
+  padding: 25px;
+}
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+#paragraph {
+  background-color: lightsteelblue;
+  width: auto;
+  text-align: center;
+}
+
+#candy {
+  padding: 25px;
+}
+
+h3 {
+  font-family: Pacifico, sans-serif;
+  padding: 25px;
+  font-size: 30px;  
+}
+
+h2 {
+  font-family: pacifico, sans-serif ;
+  font-size: 30px;
+}
+
+table {
+  background-color: chocolate;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #5e503f ;
+  padding: 15px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Autour+One&family=Lobster&family=Pacifico&family=Teko:wght@300&family=Young+Serif&display=swap');
+
+
 /*apply the text-align: center; style to the following selectors:*/
 #content {
     max-width: 1600px; 
@@ -15,6 +18,8 @@ nav a {
     text-align: center; 
     color: blue;
     text-decoration: none;
+    padding: 35px;
+    
 }
 
 header img {
@@ -44,6 +49,10 @@ main section {
 
 body {
     background-color: white;
+    font-size: 22px;
+    font-family: anton, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -60,10 +69,18 @@ nav a:hover {
     color: blue;
     text-decoration: none;
     font-size: 1.3em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .join {
     background-color: green;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -82,12 +99,17 @@ nav a:hover {
 
 .msg {
     background-color: gold;
+    line-height: 1.5em
 }
 
 footer {
     background-color: chocolate;
     color: white;
-    
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .home-title {
@@ -102,11 +124,15 @@ h4 {
 .msg h2 {
     color: brown;
     font-size: 1.3em;
+    padding: 35px;
 }
 
 .msg p {
     color: brown;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    font-family: teko, sans-serif;
+
 }
 
 footer a {
@@ -126,5 +152,32 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+h2 {
+    margin: 0;
+    font-family: pacifico, sans-serif;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
