@@ -1,24 +1,26 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Autour+One&family=Lobster&family=Pacifico&family=Teko:wght@300&family=Young+Serif&display=swap');
 
 
 /*apply the text-align: center; style to the following selectors:*/
-#content {
+/*#content {
     max-width: 1600px; 
     margin: 0 auto;
-}
+}*/
 
 nav {
     text-align: center; 
-    background-color: yellow;
+    background-color: transparent;
     font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     text-align: center; 
-    color: blue;
+    color: yellow;
     text-decoration: none;
     padding: 35px;
+    size: 30%;
     
 }
 
@@ -27,12 +29,39 @@ header img {
 }
 
 #Hero {
-    text-align: center; 
-    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr ;
+    margin-top: -100px;
+    
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+   
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Adicione um fundo semi-transparente */
+    padding: 20px; /* Adicione algum espaço ao redor do conteúdo */
+}
+
+#Hero-img {
+    position: absolute;
+    width: 100%; 
+    text-align: center;
+
+    z-index: -1;
+
 }
 
 #Hero-msg {
-    text-align: center; 
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 120px;
 }
 
 .button-box {
@@ -56,7 +85,8 @@ body {
 }
 
 header {
-    background-color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav a:hover {
@@ -72,6 +102,7 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+
 
 }
 
@@ -93,19 +124,36 @@ nav a:hover {
     color: blue;
 }
 
+.card-montains {
+    width: 100%;
+    display: grid;
+}
+
 #background {
     background-color: green;
+    width: 100%;
 }
 
 .msg {
     background-color: gold;
-    line-height: 1.5em
+    width: 40%;
+    height: 70%;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-top: 3%;
+    margin-left: 35%;
+    z-index: 2;
 }
 
 footer {
     background-color: chocolate;
     color: white;
     padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer .social img {
@@ -119,7 +167,9 @@ footer .social img {
 h4 {
     color: chocolate;
     font-size: 1.6em;
+
 }
+
 
 .msg h2 {
     color: brown;
@@ -148,6 +198,7 @@ footer a:hover {
 
 .logo {
     width: 80px;
+    border-radius: 50%;
 }
 
 .icon {
@@ -168,16 +219,110 @@ h2 {
 
 #logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 200px 0 200px;
 }
 
 .rivers-card, .camping-card, .rapids-card {
-    margin: 200px 0;
+    margin: 50% 0;
+    width: 200px;
+    height: 200px;
 }
 
-.card-img {
-    border: 10px solid black;
+.cards-img {
+    width: 100%;
 }
+
+.cards-img {
+    border: solid #d9c2a3;
+    transition: .5s;
+   
+}
+
+.cards-img :hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.montains {
+    width: 55%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    position: absolute;
+    margin-top: 9%;
+
+}
+
 
 main section img {
     box-sizing: border-box;
+}
+
+
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+
+}
+
+.Camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card  {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+@media screen and (max-width: 900px) {
+    .card-montains {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .msg {
+        width: 92%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .montains {
+        position: static;
+        width: 90%;
+    }
+    #background {
+        visibility: hidden;
+        position: absolute;
+    }
+
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .rivers-card, .camping-card, .rapids-card { 
+    
+        width: 350px;
+        height: 350px;
+    }
+    .camping-card, .rapids-card {
+        margin-top: 5%;
+    }
+
 }

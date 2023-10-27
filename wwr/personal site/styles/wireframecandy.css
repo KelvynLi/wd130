@@ -1,0 +1,47 @@
+/* Styles for the navigation bar */
+nav {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#doces-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px; /* Adjust the spacing between the logo and links */
+}
+
+/* Styles for the navigation bar links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px; /* Adjust the spacing between links */
+    color: white; /* Text color for the links */
+    text-align: center; /* Center the text within each link */
+}
+
+/* Your existing styles for the navigation bar */
+nav {
+    font-size: 2.0em;
+}
+
+/* Add any additional styles you need for your content */
