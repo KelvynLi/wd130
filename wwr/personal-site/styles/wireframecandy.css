@@ -1,4 +1,9 @@
 /* Styles for the navigation bar */
+
+body {
+    background-color: brown;
+}
+
 nav {
     background-color: #8a2be2;
     display: flex;
@@ -6,6 +11,7 @@ nav {
     align-items: center;
     padding: 10px;
     height: 80px;
+    
     
     
 }
@@ -24,6 +30,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+
 
 }
 
@@ -54,11 +61,24 @@ nav {
 #candy-img {
     text-align: center;
      width: 100%;
-     height: 70%;
+     height: 40%;
      top: -33px;
 }
 
 /*this code take the image*/
+.background img {
+    display: flex;
+   margin-left: 0%;
+    width: 10; /* Certifique-se de que a imagem de fundo cubra toda a largura da área desejada */
+    height: 10%; /* Certifique-se de que a imagem de fundo cubra toda a altura da área desejada */
+    border-radius: 50%;
+    margin-top: 60%;
+    margin-left: 60px;
+    
+
+
+}
+
 
 .sweet {
     display: flex;
@@ -66,11 +86,78 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.sweet1  {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    z-index: 1;
+    margin: 5%;
+    
+
+}
+
+.sweet5 {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    z-index: 1;
+    
+}
+
+.sweet2 {display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.sweet3 {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    z-index: 1;
+}
+
+.sweet4 {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    z-index: 1;
 }
 
 .bri {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 50%;
+    border-radius: 5%;
 
 }
 
@@ -86,13 +173,16 @@ nav {
 }
 
 .don {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 40%;
+    border-radius: 5%;
+
 }
 
 .pan {
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 40%;
+    border-radius: 5%;
 }
 
 .rap {
@@ -103,13 +193,16 @@ nav {
 /* the text now*/
 
 .choco {
-    width: 30%;
+    width: 50%;
     height: 30%;
+    text-align: center;
+    text-size-adjust: 70px;
 }
 
 .leite {
-    width: 30%;
+    width: 50%;
     height: 30%;
+    text-align: center;
 }
 
 .goiaba {
@@ -123,8 +216,9 @@ nav {
 }
 
 .panq {
-    width: 30%;
+    width: 50%;
     height: 30%;
+    text-align: center;
 }
 
 .rapa {

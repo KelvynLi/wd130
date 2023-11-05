@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    text-align: center;
+    margin-left: 40%;
+    background-color: black;
+}
+
+.image {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.image img {
+    display: block; /* Remove o espaço em branco abaixo da imagem */
+    margin: 0 auto;  /* Centraliza a imagem horizontalmente */
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+.container {
+    border-radius: 5%;
+    background-color: aqua;
+    width: 40%; /* Defina a largura desejada */
+    height: 40%; /* Defina a mesma altura desejada */
+    justify-content: center;
+    align-items: center;
+    z-index: 11;
+}
+
+footer {
+    background-color: gray;
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+}
+
+.container1, .container2, .container3 {
+    display: inline-block;
+    border-radius: 5%;
+    background-color: cadetblue;
+    margin-right: 0;
+    width: 100px; /* Defina a largura desejada para cada contêiner */
+    height: 20px; /* Defina a mesma altura para todos os contêineres no footer */
+}
+
+
+
+
+
+
