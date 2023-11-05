@@ -61,7 +61,7 @@ nav {
 /*this code take the image*/
 
 .sweet {
-    
+    display: flex;
 }
 
 .bri {
