@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
+
+body {
+    background-color: yellow;
+}
+#logo_link {
+    position: relative; /* Adicione essa propriedade para permitir o uso de z-index */
+    z-index: 2; /* Defina um valor maior que o z-index da imagem de fundo */
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+    padding-top: 10px;
+    position: relative; /* Adicione essa propriedade */
+    z-index: 2; /* Defina um valor maior que o z-index da imagem de fundo */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.rafting {
+    width: 100%;
+    margin-top: -120px;
+    z-index: 1; /* Defina um valor menor para a imagem de fundo */ 
+    
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    
+  /* Espaçamento interno para espaçamento entre o conteúdo e a borda */
+}
+
+
+nav {
+    background-color: transparent;
+    font-size: 1.2em;
+    display: flex;
+    top: 5px;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+
+}
+
+nav a {
+    text-align: center; 
+    color: yellow;
+    text-decoration: none;
+    font-family: Bebas Neue;
+    font-size: 2.3em;
+    
+    size: 30%;
+    
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: brown;
+}
+
+
+
+nav a {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+
+}
+/*
+.background {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    background-color: aqua;
+    z-index: 0; 
+}
+
+.background.sp {
+    top: 27%;
+    left: 30%;
+    
+}
+
+.background.to {
+    top: 100%;
+
+}
+
+.background.veadeiros {
+    position: absolute;
+    background-color: aqua;
+    z-index: 2; /* Defina um valor menor do que o z-index dos elementos de conteúdo para colocar o fundo atrás do conteúdo
+    top: 215%;  Ajuste a posição vertical para mover o fundo para baixo da seção
+    left: 0;  Mantenha a posição horizontal na parte superior 
+    width: 50%;  Certifique-se de que o fundo ocupe toda a largura da seção
+    height: 50%;  Certifique-se de que o fundo ocupe toda a altura da seção
+}
+}
+
+section {
+    position: relative;
+    margin-bottom: 20px; /* Espaçamento inferiosr entre as seções */
+
+
+h1, h2, p {
+    position: relative;
+    z-index: 1; /* Certifique-se de que o z-index seja maior do que o fundo para que o texto fique sobre o fundo */
+    padding: 20px; /* Adicione preenchimento para separar o texto do fundo */
+}
+
+.Jacaré-Pepira {
+    width: 50%;
+    height: 50%;
+    
+
+}
+
+.Tocantins {
+    position: relative;
+    left: 50%; /* Move a imagem para a esquerda em 20 pixels */
+    height: 40%;
+   
+
+}
+
+
+.container {
+    display: flex;
+    align-items: center ;
+    
+    max-width: 1000px; 
+    margin-top: 50px;
+
+}
+
+/* size img */
+.Jacaré-Pepira {
+    width: 50%;
+    height: 60%;
+    max-height: 300px; }
+
+/* size, color of the text */
+.text {
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    left: 30%;
+    background-color: chocolate;
+    color: aliceblue;
+    margin-right: 50px;
+    width: 38%;
+    height: 38%;
+   
+}
+
+
+.to-container {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1000px; 
+    margin-top: 50px;
+    
+}
+
+.text-to {
+    position: absolute;
+    
+    padding: 20px;
+    background-color: chocolate;
+    color: aliceblue;
+    right: 50%;
+    max-width: 40%;
+    height: 40%;
+    padding: 50px;
+}
+
+.veadeiros {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1000px; 
+    margin-top: 50px;
+    
+}
+
+.text-veadeiros {
+    position: absolute;
+    
+    padding: 20px;
+    background-color: chocolate;
+    color: aliceblue;
+    left: 52%;
+    max-width: 40%;
+    height: 40%;
+    padding: 50px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: chocolate;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* font  size of the our text*/
+
+h1 {
+    text-align: center;
+    margin-top: 90px;
+    font-family: Agbalumo, sans-serif;
+    font-size: 2.6em;
+}
+
+#to , #sp , #serra {
+    font-family: Bebas Neue;
+    font-size: 1.1em;
+}
+
+h2 {
+    font-family: Bebas Neue;
+    font-size: 2.0em;
+    padding: 70px;
+}
+
+.riverto {
+   margin-left: 65%;
+
+}
+
+p {
+    font-family: Bebas Neue;
+    text-align: center;
+    font-size: 1.5em;
+}
+

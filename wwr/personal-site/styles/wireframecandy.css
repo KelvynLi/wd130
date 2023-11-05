@@ -54,5 +54,77 @@ nav {
 #candy-img {
     text-align: center;
      width: 100%;
+     height: 70%;
      top: -33px;
 }
+
+/*this code take the image*/
+
+.sweet {
+    
+}
+
+.bri {
+    width: 20%;
+    height: 20%;
+
+}
+
+.bei {
+    width: 20%;
+    height: 20%;
+
+}
+
+.goi {
+    width: 20%;
+    height: 20%;
+}
+
+.don {
+    width: 20%;
+    height: 20%;
+}
+
+.pan {
+    width: 20%;
+    height: 20%;
+}
+
+.rap {
+    width: 20%;
+    height: 20%;
+}
+
+/* the text now*/
+
+.choco {
+    width: 30%;
+    height: 30%;
+}
+
+.leite {
+    width: 30%;
+    height: 30%;
+}
+
+.goiaba {
+    width: 30%;
+    height: 30%;
+}
+
+.rosq {
+    width: 30%;
+    height: 30%;
+}
+
+.panq {
+    width: 30%;
+    height: 30%;
+}
+
+.rapa {
+    width: 30%;
+    height: 30%;
+}
+

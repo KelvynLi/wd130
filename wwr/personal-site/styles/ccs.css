@@ -22,19 +22,25 @@ ul {
 }
 
 li {
-    background-color: #fff;
-    padding: 10px;
     margin: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px #888888;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    size: 15%;
 }
 
+
 .menu-item {
+    background-color: aliceblue;
     text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
 }
+
+.menu-item:hover {
+    margin-top: -5px;
+    box-shadow: 5px 5px 10px dimgray;
+    transition-duration: .15s;
+}
+
 
 img {
     max-width: 25%; /* Define a largura máxima para todas as imagens */
