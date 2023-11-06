@@ -4,18 +4,20 @@ body {
     background-color: yellow;
 }
 #logo_link {
-    position: relative; /* Adicione essa propriedade para permitir o uso de z-index */
-    z-index: 2; /* Defina um valor maior que o z-index da imagem de fundo */
+    position: relative; 
+    z-index: 2; 
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    margin-left: auto; /* Isso alinhará o logotipo à direita do contêiner */
+    margin-right: auto; 
 }
 
 .logo {
     width: 80px;
     padding-top: 10px;
-    position: relative; /* Adicione essa propriedade */
-    z-index: 2; /* Defina um valor maior que o z-index da imagem de fundo */
+    position: relative; 
+    z-index: 2; 
     border-radius: 50%;
     padding: 10px;
 }
@@ -23,7 +25,7 @@ body {
 .rafting {
     width: 100%;
     margin-top: -120px;
-    z-index: 1; /* Defina um valor menor para a imagem de fundo */ 
+    z-index: 1; 
     
 }
 
@@ -31,7 +33,6 @@ body {
     display: flex;
     align-items: center;
     
-  /* Espaçamento interno para espaçamento entre o conteúdo e a borda */
 }
 
 
@@ -94,12 +95,13 @@ nav a {
 .background.veadeiros {
     position: absolute;
     background-color: aqua;
-    z-index: 2; /* Defina um valor menor do que o z-index dos elementos de conteúdo para colocar o fundo atrás do conteúdo
-    top: 215%;  Ajuste a posição vertical para mover o fundo para baixo da seção
-    left: 0;  Mantenha a posição horizontal na parte superior 
-    width: 50%;  Certifique-se de que o fundo ocupe toda a largura da seção
-    height: 50%;  Certifique-se de que o fundo ocupe toda a altura da seção
-}
+    z-index: 2; 
+    top: 215%;  
+    
+    left: 0; 
+    
+    width: 50%;  
+    height: 50%;  
 }
 
 section {
@@ -109,8 +111,8 @@ section {
 
 h1, h2, p {
     position: relative;
-    z-index: 1; /* Certifique-se de que o z-index seja maior do que o fundo para que o texto fique sobre o fundo */
-    padding: 20px; /* Adicione preenchimento para separar o texto do fundo */
+    z-index: 1; 
+    padding: 20px; 
 }
 
 .Jacaré-Pepira {
@@ -122,7 +124,7 @@ h1, h2, p {
 
 .Tocantins {
     position: relative;
-    left: 50%; /* Move a imagem para a esquerda em 20 pixels */
+    left: 50%; 
     height: 40%;
    
 
@@ -139,10 +141,7 @@ h1, h2, p {
 }
 
 /* size img */
-.Jacaré-Pepira {
-    width: 50%;
-    height: 60%;
-    max-height: 300px; }
+
 
 /* size, color of the text */
 .text {
@@ -153,8 +152,8 @@ h1, h2, p {
     background-color: chocolate;
     color: aliceblue;
     margin-right: 50px;
-    width: 38%;
-    height: 38%;
+    width: 40%;
+    height: 40%;
    
 }
 
@@ -168,6 +167,7 @@ h1, h2, p {
     margin-top: 50px;
     
 }
+
 
 .text-to {
     position: absolute;
@@ -238,6 +238,7 @@ h1 {
     margin-top: 90px;
     font-family: Agbalumo, sans-serif;
     font-size: 2.6em;
+    margin-right: 5%;
 }
 
 #to , #sp , #serra {
@@ -260,5 +261,48 @@ p {
     font-family: Bebas Neue;
     text-align: center;
     font-size: 1.5em;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.7); /*  um fundo semi-transparente */
+    padding: 40px; /*  espaço ao redor do conteúdo */   
+    
+}
+
+.unforgettable {
+    margin-bottom: 20px; 
+    margin-top: -20%;
+    font-family: Agbalumo, sans-serif;
+    
+}
+
+.button-box a.book {
+    padding: 10px 20px;
+    background-color: aqua;
+    color: brown;
+    text-decoration: none;
+    font-size: 1.5em;
+    justify-self: center;
+    font-family: Agbalumo, sans-serif;
+}
+
+.book :hover {
+    color: green;
 }
 
