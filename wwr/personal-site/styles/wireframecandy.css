@@ -152,7 +152,7 @@ nav :hover {
    margin-left: 50%;
     width: 10%; /* Certifique-se de que a imagem de fundo cubra toda a largura da área desejada */
     height: 10%; /* Certifique-se de que a imagem de fundo cubra toda a altura da área desejada */
-    border-radius: 5%;
+    border-radius: 50%;
     
     margin-left: 60px;
     background-color: antiquewhite;
