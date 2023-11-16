@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Anton&family=Bebas+Neue&family=Edu+TAS+Beginner:wght@700&family=Lobster&family=Roboto:wght@100&display=swap');
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the body */
+  body {
+    background-color: transparent;
+    font-family: 'Arial', sans-serif; /* Choose an appropriate font */
+    z-index: 2;
+  }
+
+  /* CSS existente ... */
+
+.body-img {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+ width: 160%;
+  height: 160%;
+  z-index: -1; /* Para enviar a imagem para o fundo */
+  object-fit: cover; /* Para cobrir todo o corpo */
+}
+
+/* Mais estilos ... */
+
+  
+  /* Header Styling */
+  .elementnav {
+    background-color: transparent;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .answer {
+    display: grid;
+    z-index: 3;
+    font-family: anton;
+   
+}
+  
+  .logo {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    margin-right: 90%;
+   
+    
+  }
+  
+  p {
+    font-family: bebas neue, sans-serif;
+    padding: 40px;
+    font-size: 1.4em;
+
+  }
+  
+nav {
+    text-align: center; 
+    background-color: transparent;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -7%;
+}
+  
+nav a {
+    text-align: center; 
+    color: yellow;
+    text-decoration: none;
+    padding: 35px;
+    size: 30%;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: brown;
+}
+  
+  /* Form Styling */
+  .esqueleto {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .check {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+ button :hover {
+    background-color: aqua;
+    color: brown;
+ }
+  
+  /* Feedback Styling */
+  #feedback {
+    margin-top: 20px;
+  }
+  
+  #success-notification, #error-notification {
+    margin-top: 10px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .social a {
+    margin-right: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .esqueleto {
+      width: 90%;
+    }
+  }
+  
+  

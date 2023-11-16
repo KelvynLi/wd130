@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Merriweather:ital,wght@1,300&family=Playfair+Display:ital@1&display=swap');
 
 body {
-    background-color: yellow;
+    background-color: antiquewhite;
 }
 #logo_link {
     position: relative; 
@@ -122,6 +122,15 @@ h1, h2, p {
 
 }
 
+.jacare {
+    position: relative;
+    z-index: 1; 
+    padding: 20px;
+    font-family: Bebas Neue;
+    font-size: 2.0em;
+    padding: 70px;
+}
+
 .Tocantins {
     position: relative;
     left: 50%; 
@@ -149,11 +158,12 @@ h1, h2, p {
     padding: 20px;
     text-align: center;
     left: 30%;
-    background-color: chocolate;
+    background-color: rgb(19, 11, 8);;
     color: aliceblue;
     margin-right: 50px;
     width: 40%;
     height: 40%;
+    margin-top: -23%;
    
 }
 
@@ -173,7 +183,7 @@ h1, h2, p {
     position: absolute;
     
     padding: 20px;
-    background-color: chocolate;
+    background-color: rgb(19, 11, 8);;
     color: aliceblue;
     right: 50%;
     max-width: 40%;
@@ -195,7 +205,7 @@ h1, h2, p {
     position: absolute;
     
     padding: 20px;
-    background-color: chocolate;
+    background-color: rgb(19, 11, 8);;
     color: aliceblue;
     left: 52%;
     max-width: 40%;
@@ -207,7 +217,7 @@ h1, h2, p {
 /*footer*/
 
 footer {
-    background-color: chocolate;
+    background-color: rgb(19, 11, 8);;
     color: white;
     padding: 25px 50px;
     display: flex;
@@ -304,5 +314,116 @@ p {
 
 .book :hover {
     color: green;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 14px; /* Ajuste o tamanho da fonte conforme necessário */
+    }
+
+    .header-container {
+       
+
+    }
+
+    .rafting {
+        display: flex;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        background-color: brown;
+        
+    }
+
+    nav a {
+        font-size: 16px; /* Reduza o tamanho da fonte do menu */
+        margin: 5px 0; /* Adicione um pequeno espaçamento entre os itens do menu */
+    }
+
+    .logo {
+        width: 60px; /* Reduza o tamanho do logotipo para caber melhor */
+    }
+
+    .banner-content {
+        padding: 20px; /* Reduza o espaço ao redor do conteúdo do banner */
+        display: flex;
+        margin-top: 40%;
+    }
+
+    h1 {
+        margin-left: 0; /* Alinhe o título ao centro */
+    }
+
+    p {
+        width: 100%; /* Use a largura total para melhor legibilidade do texto */
+    }
+
+    .background-sp,
+    .background-to,
+    .background-veadeiros {
+        background-size: cover; /* Ajuste o tamanho da imagem de fundo */
+    }
+
+    .background-sp {
+        display: flex;
+        margin-top: 60%
+    }
+
+    .river {
+        display: flex;
+        margin-left: 30%;
+        margin-top: 60%;
+        
+    }
+
+    .expeditions {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+    }
+
+    .Jacaré-Pepira, .Tocantins, .chapada {
+        width: 50%;
+    }
+
+    .jacare {
+        display: flex;
+        margin-top:-20%;
+        margin-right: -30%;
+        
+    }
+
+    .Jacaré-Pepira {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: %;
+        margin-right: 100%;
+    } 
+
+    .sp {
+        font-size: 3px;
+        display: flex ;
+        margin-top: -30%;
+
+    }
+
+    .text {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        right: 160%;
+        background-color: rgb(19, 11, 8);
+        color: aliceblue;
+        margin-right: 100%;
+       
+       
+    }
+    
 }
 
