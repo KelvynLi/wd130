@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: brown;
+    background-color: #972D07;
 }
 
 nav {
@@ -47,7 +47,7 @@ nav ul li {
 nav a {
     text-decoration: none;
     margin: 38px 38px; 
-    color: white; 
+    color: #FDFFFF; 
     text-align: center; 
     text-decoration: none;
 
@@ -101,7 +101,7 @@ h4 {
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5PX;
     font-size: 18px;
     align-items: center;
     margin-left: 20%;
@@ -133,7 +133,7 @@ nav {
 }
 
 nav :hover {
-    color: chocolate;
+    color: #F9A03F;
     
 }
 
@@ -152,12 +152,20 @@ nav :hover {
    margin-left: 50%;
     width: 10%; /* Certifique-se de que a imagem de fundo cubra toda a largura da área desejada */
     height: 10%; /* Certifique-se de que a imagem de fundo cubra toda a altura da área desejada */
-    border-radius:  5%;
-    
+    border-radius:  50%;
     margin-left: 60px;
     background-color: antiquewhite;
 
+
 }
+
+.background img:hover {
+    background-color: #FDFFFF;
+    transition-duration: .15s;
+}
+
+
+
 
 .background1 {
     width: 100%;
@@ -359,7 +367,7 @@ footer a:hover {
 }
 
 footer {
-    background-color: chocolate;
+    background-color: #F9A03F;
     color: white;
     padding: 25px 50px;
     display: flex;

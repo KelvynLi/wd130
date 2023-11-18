@@ -1,38 +1,92 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Kanit&family=Roboto&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
-    margin: 0;
     padding: 0;
+}
+
+nav {
+    background-color: #7a6448;
+    display: flex;
+    justify-content: space-between; /* Change to space-between to separate logo and links */
+    align-items: center;
+    padding: 10px;
+    height: 80px;
+    background-image: url(/wwr/personal-site/images/bg__header--mob.png);
+    font-size: 30px;
+    font-family: lobster, sans-serif;
+}
+
+nav a:hover {
+    color: bisque;
+    background-color: cadetblue;
+    text-decoration: none ;
+    font-family: lobster, sans-serif;
+    
+  }
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+/* navigation bar links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin:  0;
+    display: flex; /* Make the links flex items */
+   width: 100%;
+   
+    
+}
+
+nav ul li {
+    margin: 0 15px; /* Add margin to space out the links */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 h1 {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
+    margin-top: -1.5px;
+    
 }
 
 h2 {
     color: #333;
 }
 
-ul {
+.domination {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 li {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    flex: 1; 
 }
-
 
 .menu-item {
     background-color: aliceblue;
     text-align: center;
     border: 1px solid #ccc;
     padding: 10px;
+    width: 80%; 
+    height: 80%;
+    
 }
 
 .menu-item:hover {
@@ -41,14 +95,12 @@ li {
     transition-duration: .15s;
 }
 
-
 img {
-    max-width: 25%; /* Define a largura máxima para todas as imagens */
-    height: auto; /* Mantém a proporção da imagem */
-    display: block;
-    margin: 0 auto;
-    border-radius: 100%;
+    max-width: 100%; 
+   max-height: 60%;
+   border-radius: 100%;
 }
+
 
 .item-name, .item-price {
     text-align: center;
@@ -56,5 +108,52 @@ img {
 }
 
 .item-price {
-    color: #f00; /* Cor vermelha para o preço (pode personalizar a cor) */
+    color: #f00;
+}
+
+
+footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.candyimg {
+    display: flex;
+    width: 45%;
+    height: 45%;
+    border-radius: 5%;
+    margin-left: 20px;
+   
+}
+
+.container {
+    display: flex;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.paragraph {
+    font-family: Kanit,sans-serif;
+    width: 45%;
+    height: 45%;
+    padding: 20px;
+    font-size: 28px;
+    text-align: center;
 }
