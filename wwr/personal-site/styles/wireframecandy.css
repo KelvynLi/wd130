@@ -22,10 +22,11 @@ nav {
 
    
 .logo {
-    max-width: 100px;
+    width: 100px;
     height: auto;
     margin-right: 20px; 
     justify-content: right;
+    border-radius: 50%;
 }
 
 /*  navigation bar links */
@@ -50,6 +51,8 @@ nav a {
     color: #FDFFFF; 
     text-align: center; 
     text-decoration: none;
+    
+    
 
 }
 
@@ -218,6 +221,7 @@ nav :hover {
     border-radius: 3%;
     align-items: center;
     margin-left: 50%;
+
 }
 
 .more {
@@ -323,6 +327,7 @@ nav :hover {
     border-radius: 5%;
     padding: 20px;
     color: antiquewhite;
+    
 
 }
 
@@ -386,7 +391,7 @@ footer .social img {
     margin-top: 2px;
     font-size: 25px;
     width: 32%;
-    height: 70%;
+    height: 50%;
 }
 
 .attention {
@@ -413,3 +418,4 @@ footer .social img {
 .attention :hover {
     color: #cd7f18;
 }
+
