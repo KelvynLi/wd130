@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {
   text-align: center;
+  font-family: Fira Sans;
 }
 hr {
   height: 3px;
@@ -174,9 +175,15 @@ nav a:hover {
   border-right: 1px solid;
 }
 
-img {
+.Picture img {
   padding: 30px;
   width: 50%;
   height: 50%;
   display: flex;
 }
+
+.wireframe {
+  width: 30%;
+  height: 30%;
+}
+
