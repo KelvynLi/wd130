@@ -13,8 +13,8 @@ nav {
     justify-content: space-between; /* Change to space-between to separate logo and links */
     align-items: center;
     padding: 10px;
-    height: 80px;
-    background-image: url(/wwr/personal-site/images/bg__header--mob.png);
+    height:ss 80px;
+    background-image: url(images/bg__header--mob.png);
     font-size: 30px;
     font-family: lobster, sans-serif;
 }
